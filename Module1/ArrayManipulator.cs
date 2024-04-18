@@ -1,4 +1,4 @@
-﻿namespace ModuleN1
+﻿namespace CSharpModules.Module1
 {
     static class ArrayManipulator
     {
@@ -36,11 +36,11 @@
             int[] sortedArray = new int[array.Length];
             array.CopyTo(sortedArray, 0);
 
-            for(int i = 0; i < sortedArray.Length; i++)
+            for (int i = 0; i < sortedArray.Length; i++)
             {
-                for(int j = 0; j < sortedArray.Length - i - 1; j++)
+                for (int j = 0; j < sortedArray.Length - i - 1; j++)
                 {
-                    if (sortedArray[j] > sortedArray[j+1])
+                    if (sortedArray[j] > sortedArray[j + 1])
                         (sortedArray[j], sortedArray[j + 1]) = (sortedArray[j + 1], sortedArray[j]);
                 }
             }

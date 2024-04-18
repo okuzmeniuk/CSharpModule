@@ -1,4 +1,4 @@
-﻿namespace ModuleN1
+﻿namespace CSharpModules.Module1
 {
     // Після створення класу запустіть програму,
     // яка створює масив,
