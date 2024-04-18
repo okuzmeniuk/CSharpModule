@@ -4,9 +4,9 @@
     // яка створює масив,
     // знаходить найбільший елемент та сортує масив.
     // Виведіть початковий масив, знайдений максимум та відсортований масив на консоль.
-    internal class Program
+    public class Module1Runner
     {
-        static void Main(string[] args)
+        static public void Run()
         {
 
             int[] array = ArrayManipulator.GenerateRandomArray(10, -5, 5);
